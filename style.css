@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header{
+    background-color: aqua;
+}
+
+.sidebar{
+    background-color: lightseagreen;
+}
+
+.content{
+    background-color: #efefef;
+}
