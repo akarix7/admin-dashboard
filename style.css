@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 #container{
@@ -10,12 +11,52 @@
 
 .header{
     background-color: aqua;
+    grid-column: 2 / 3;
 }
 
 .sidebar{
     background-color: lightseagreen;
+    color: #fff;
+    font-weight: bolder;
+    grid-row: 1 / 4;
+}
+
+.sidebar h2{
+    margin: 10px;
+}
+
+.sidebar ul li, .content ul li
+{
+    list-style: none;
+}
+
+.sidebar li{
+    padding: 10px 5px 10px 30px;
 }
 
 .content{
     background-color: #efefef;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.content ul li{
+    padding: 10px 5px 10px 20px;
+    background-color: #fff;
+    border: 1px solid red;
+}
+
+.title{
+    font-weight: 800;
+    padding: 10px;
+}
+
+.project{
+
+}
+
+.trending{
+    grid-column: 2;
 }
