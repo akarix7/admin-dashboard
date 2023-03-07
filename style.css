@@ -3,6 +3,7 @@
     --sub-color: #766C7F;
     --white: #fff;
     --font-color: #6C6C6C;
+    --light-gray: #efefef;
 }
 
 * {
@@ -18,12 +19,21 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr;
     min-height: 100vh;
+    background-color: var(--light-gray);
 
 }
 
 .header{
-    background-color: aqua;
+    background-color: var(--white);
     grid-column: 2 / 3;
+}
+
+.header button{
+    color: var(--white);
+    border-radius: 15px;
+    padding: 8px 25px;
+    background-color: var(--sub-color);
+    border: 0;
 }
 
 .sidebar{
@@ -47,10 +57,9 @@ body{
 }
 
 .content{
-    background-color: #efefef;
+    background-color: var(--light-gray);
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
 
