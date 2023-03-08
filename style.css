@@ -34,6 +34,20 @@ body{
     padding: 8px 25px;
     background-color: var(--sub-color);
     border: 0;
+    margin: 0 7px;
+}
+
+.nav{
+
+}
+
+.nav-bottom{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons{
+    grid-column: 2;
 }
 
 .sidebar{
