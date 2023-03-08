@@ -42,12 +42,18 @@ body{
 }
 
 .nav-bottom{
+    width: 100%;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user{
+
 }
 
 .buttons{
     grid-column: 2;
+    justify-self: end;
 }
 
 .sidebar{
