@@ -74,6 +74,14 @@ body{
 
 .sidebar li{
     padding: 10px 5px 10px 30px;
+    display: flex;
+    align-content: center;
+}
+
+.sidebar li img {
+    height: 20px;
+    width: auto;
+    margin-right: 7px;
 }
 
 .content{
