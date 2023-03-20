@@ -84,6 +84,10 @@ body{
     margin-right: 7px;
 }
 
+#user-settings{
+    margin-top: 40px;
+}
+
 .content{
     background-color: var(--light-gray);
     display: grid;
@@ -138,6 +142,19 @@ body{
     padding: 20px;
 }
 
-.announcement-trending{
+.section li img{
+    height: 60px;
+    width: auto;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+#announcement li{
+    border-bottom: 1px solid var(--font-color);
+}
+#announcement li:last-child{
+    border-bottom: 0;
+}
+.announcement-trending {
 
 }
