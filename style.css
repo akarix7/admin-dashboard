@@ -37,22 +37,43 @@ body{
     margin: 0 7px;
 }
 
-.nav{
+.nav img{
+    height: 20px;
+    width: auto;
+    margin-right: 7px;
+}
 
+.nav-user-img img{
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    border: 3px solid var(--main-color);
 }
 
 .nav-bottom{
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.user-img{
+    justify-self: end;
 }
 
 .user{
-
+    justify-self: start;
+}
+.user-img img{
+    height: 80px;
+    width: auto;
+    border-radius: 50px;
+    border: 3px solid var(--main-color);
 }
 
 .buttons{
-    grid-column: 2;
+    grid-column: 3;
     justify-self: end;
 }
 
@@ -147,6 +168,8 @@ body{
     width: auto;
     margin-right: 7px;
     vertical-align: middle;
+    border-radius: 40px;
+    border: 3px solid var(--main-color);
 }
 
 #announcement li{
